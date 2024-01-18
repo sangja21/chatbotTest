@@ -1,7 +1,9 @@
-from langchain.llms import Ollama
+from langchain_community.llms import Ollama
 import pymysql
 import os
 from dotenv import load_dotenv
+
+## 한 문장씩 DB에서 불러와서 인공지능을 통해 intent, entities, label(positive, negative, neutral)을 출력하는 예제
 
 load_dotenv()
 host_name = os.getenv("HOST")
@@ -29,6 +31,8 @@ llm = Ollama(model="llama2", temperature=0.0)
 # Entities : 
 # emotions : 
 # """
+
+# 추가사항. DB에 업종별로 구분하여 들어간 정보를 주고 이를 통해 인공지능이 구분하도록 함. 
 prompt = """Classify this text into the intent of a single word and the entities that appear here,
 and Classify Text into one of 3 labels : positive, negative, neutral :
 Intent : 
