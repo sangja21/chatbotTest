@@ -74,7 +74,8 @@ print("*******************************************************")
 # SQL 쿼리 구성 및 실행
 sql = "INSERT INTO analyzed_text (message, intent, entities, emotion) VALUES (%s, %s, %s, %s)"
 cur.execute(sql, (message, intent, entities, emotion))
-conn.commit()
+conn.commit() # 데이터를 삽입한 후, conn.commit()을 호출하여 변경사항을 데이터베이스에 반영 
 
-cur.close()
+# DB 닫기
+cur.close() 
 conn.close()

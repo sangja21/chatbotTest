@@ -2,3 +2,4 @@ langchain==0.0.259 # 지금 안씀
 langchain_community
 pymysql
 load_dotenv
+asyncio
