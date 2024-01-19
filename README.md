@@ -2,7 +2,14 @@
 
 This example is a basic "hello world" of using LangChain with Ollama.
 
-## Running the Example
+## Aim
+
+- ollama를 통해 SQL에 있는 데이터(send_message)를 분류하여 SQL테이블(analyzed_text)에 저장
+- analyzed_text 테이블에 있는 정보를 csv로 변환
+- csv로 변환된 데이터를 학습하여 vector store에 저장(embedding)
+- 임베딩된 데이터를 토대로 chatbot 대화 실행
+
+## Running the Example 01~05
 
 1. Ensure you have the `llama2` model installed:
 
@@ -19,7 +26,15 @@ This example is a basic "hello world" of using LangChain with Ollama.
 3. Run the example:
 
    ```bash
-   python main.py
+   python 01_one_senetence.py
+   ```
+
+   ```bash
+   python 01_one_senetence.py
+   ```
+
+   ```bash
+   python 01_one_senetence.py
    ```
 
 ## Ollama 예제로부터 Test Code 작성
@@ -40,7 +55,7 @@ db_name = os.getenv("DB")
 conn = pymysql.connect(host=host_name, port=3306, user=user_name, password=password_one, db=db_name, charset='utf8')
 ```
 
-# PrivateGPT with Llama 2 uncensored
+# PrivateGPT with SOLAR:10.7b
 
 https://github.com/jmorganca/ollama/assets/3325447/20cf8ec6-ff25-42c6-bdd8-9be594e3ce1b
 
@@ -131,3 +146,9 @@ The supported extensions are:
 - `.pptx` : PowerPoint Document,
 - `.ppt` : PowerPoint Document,
 - `.txt`: Text file (UTF-8),
+
+## Reference
+
+- Ollama github code : https://github.com/jmorganca/ollama.git
+- `example code` : langchain-python-simple
+- `example code` : langchain-python-rag-privategpt
