@@ -11,7 +11,7 @@ import sys
 import pymysql
 import os
 
-## DB에 분류된 데이터를 불러와서 embedding 하는 코드
+## DB에 분류된 데이터를 불러와서 source_documents 폴더에 data.csv 파일로 만듦
 
 load_dotenv()
 host_name = os.getenv("HOST")
