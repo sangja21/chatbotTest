@@ -1,3 +1,4 @@
+message,intent,entities,emotion
 "Every Tuesday, indulge in our truffle-infused dishes at a special price.",Promotion,"Truffle, restaurant",Positive
 "Get a free espresso shot with any dessert, available every Monday.",Promotion,"Espresso, dessert",Positive
 Celebrate our Risotto Week with a new flavor introduced daily.,Promote,"Risotto, week",Positive
@@ -18,3 +19,23 @@ Gluten-free pasta and pizza now available every day.,Availability,"Pasta, pizza"
 Seniors enjoy a 20% discount every Wednesday.,Discount,"Seniors, Wednesday",Positive
 "Build your own lasagna with various ingredients, available on Mondays.",Cooking,"Lasagna, ingredients, Mondays",Positive
 Start the week with our fresh mozzarella dishes at a discount.,Discount,"Mozzarella, Week",Positive
+"Every Tuesday, indulge in our truffle-infused dishes at a special price.",Promotion,"Restaurant, truffles, special price",Positive
+"Get a free espresso shot with any dessert, available every Monday.",Promotion,"Espresso, dessert, Monday",Positive
+Celebrate our Risotto Week with a new flavor introduced daily.,Promotion,"Risotto, week, flavor",Positive
+Discover a different antipasti every week with our Chef's Selection.,Promotion,"Chef, restaurant, antipasti",Positive
+End your week sweetly with a buy-one-get-one offer on all desserts.,Promotion,"Restaurant, desserts",Positive
+Book a romantic dinner for two and enjoy a complimentary bottle of Prosecco.,Booking,"Romantic dinner, Prosecco",Positive
+Experience our Cheese Lovers' menu with a variety of Italian cheeses.,Promotion,"Italian cheeses, restaurant",Positive
+Weekday happy hour with half-price appetizers and drink specials from 3-5 PM.,Promotion,"Restaurant, happy hour, appetizers, drinks",Positive
+Celebrate with us and the birthday guest eats for free! (ID required),Promotion,"Restaurant, birthday guest, ID",Positive
+Dine with the sounds of live opera on the last Saturday of each month.,Enjoyment,"Opera, restaurant",Positive
+Weekly specials featuring ingredients from the local farmer's market.,Promotion,"Local farmer's market, restaurant",Positive
+Dive into our seafood Saturdays with a curated selection of seafood dishes.,Promotion,"Seafood, Saturday",Positive
+Join our interactive pizza-making class – perfect for groups and families.,Learning,"Pizza, Class, Group, Family",Positive
+Introducing a new dessert each month inspired by Italian cinema.,Innovation,"Italian cinema, desserts, new menu items",Positive
+Solo diners get a complimentary glass of wine with their meal on Wednesdays.,Promotion,"Solo diners, wednesday",Positive
+"Unwind with our aperitivo selections from 4 PM onwards, every Thursday.",Relaxation,"Aperitivo, Thursday",Positive
+Gluten-free pasta and pizza now available every day.,Promotion,"Pasta, pizza",Positive
+Seniors enjoy a 20% discount every Wednesday.,Promotion,"Seniors, Discount, Wednesday",Positive
+"Build your own lasagna with various ingredients, available on Mondays.",Food,"Lasagna, Monday",Positive
+Start the week with our fresh mozzarella dishes at a discount.,Promotion,"Restaurant, mozzarella dishes, discount",Positive
