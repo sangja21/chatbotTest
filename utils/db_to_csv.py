@@ -33,4 +33,4 @@ def extract_and_save_to_csv():
 
     return csv_file_path
 
-# 메인 스크립트에서 이 함수를 호출하고, 반환된 경로를 다음 단계에 사용합니다.
+
